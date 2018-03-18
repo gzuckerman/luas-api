@@ -108,7 +108,7 @@
 	}
 	else {
 		$error = new stdClass();
-		$error->message = "Unknown station";
+		$error->message = "Invalid station code";
 		echo json_encode($error);
 		exit;
 	}
